@@ -25,4 +25,4 @@ def now_serving(queue)
   end
 end
 
-take_a_number()
+take_a_number(katz_deli, "Kent")
