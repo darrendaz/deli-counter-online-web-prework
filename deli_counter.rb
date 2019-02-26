@@ -12,10 +12,8 @@ def line(list)
 end
 
 def take_a_number(queue, name)
- if queue.length >= 0
    queue.push(name)
    puts "Welcome, #{name}. You are number #{queue.length} in line."
- end
 end
     
 
