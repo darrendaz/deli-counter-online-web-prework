@@ -14,7 +14,7 @@ end
 def take_a_number(queue)
    number = 1
    queue.push(number)
-   puts "Welcome, #{name}. You are number #{queue.length} in line."
+   puts "Welcome, #{number}. You are number #{queue.length} in line."
    number += 1
 end
     
