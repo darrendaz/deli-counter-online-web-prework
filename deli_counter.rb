@@ -12,7 +12,7 @@ def line(list)
 end
 
 def take_a_number(queue)
-   number = queue.length
+   number = queue.length +1
    queue.push(number)
    puts "Welcome, #{number}. You are number #{queue.length} in line."
    number += 1
