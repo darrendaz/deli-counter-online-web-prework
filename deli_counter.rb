@@ -27,3 +27,4 @@ end
 
 take_a_number(katz_deli, "Kent")
 take_a_number(katz_deli, "Grace")
+now_serving(katz_deli)
