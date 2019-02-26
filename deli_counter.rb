@@ -22,6 +22,7 @@ def now_serving(queue)
     puts "There is nobody waiting to be served!"
   else
     puts "Currently serving #{queue.shift}."
-    end
+  end
 end
 
+take_a_number()
