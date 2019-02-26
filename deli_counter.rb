@@ -26,3 +26,4 @@ def now_serving(queue)
 end
 
 take_a_number(katz_deli, "Kent")
+take_a_number(katz_deli, "Grace")
