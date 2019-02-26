@@ -1,4 +1,5 @@
 katz_deli = []
+number = 1
 
 def line(list)
   message = "The line is currently:"
@@ -12,7 +13,7 @@ def line(list)
 end
 
 def take_a_number(queue)
-   number = 1
+   
    queue.push(number)
    puts "Welcome, #{number}. You are number #{queue.length} in line."
    number += 1
